@@ -1,0 +1,616 @@
+{
+  "subjects": [
+    {
+      "id": "bushcraft",
+      "title": "Bushcraft",
+      "articles": [
+        "Bushcraft",
+        "Fire_making",
+        "Shelter_(building)",
+        "Knot",
+        "Tinder",
+        "Friction_fire"
+      ]
+    },
+    {
+      "id": "survival",
+      "title": "Survival Skills",
+      "articles": [
+        "Survival_skills",
+        "Survival_kit",
+        "Wilderness",
+        "Hypothermia",
+        "Dehydration",
+        "Signal_fire"
+      ]
+    },
+    {
+      "id": "first_aid",
+      "title": "First Aid",
+      "articles": [
+        "First_aid",
+        "Cardiopulmonary_resuscitation",
+        "Wound",
+        "Burn",
+        "Bone_fracture",
+        "Snakebite"
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "articles": [
+        "Navigation",
+        "Compass",
+        "Map",
+        "Celestial_navigation",
+        "Orienteering",
+        "Latitude"
+      ]
+    },
+    {
+      "id": "foraging",
+      "title": "Plants & Foraging",
+      "articles": [
+        "Foraging",
+        "Edible_plants",
+        "Wild_food",
+        "Mushroom_hunting",
+        "Medicinal_plants",
+        "Forage"
+      ]
+    },
+    {
+      "id": "water",
+      "title": "Water & Purification",
+      "articles": [
+        "Water_purification",
+        "Drinking_water",
+        "Water_filter",
+        "Spring_(hydrology)",
+        "Rainwater_harvesting"
+      ]
+    },
+    {
+      "id": "knots",
+      "title": "Knots & Rope",
+      "articles": [
+        "Knot",
+        "List_of_knots",
+        "Rope",
+        "Bowline",
+        "Lashing_(ropework)"
+      ]
+    },
+    {
+      "id": "camping",
+      "title": "Camping",
+      "articles": [
+        "Camping",
+        "Tent",
+        "Sleeping_bag",
+        "Campsite",
+        "Backpacking_(wilderness)"
+      ]
+    },
+    {
+      "id": "astronomy",
+      "title": "Astronomy",
+      "articles": [
+        "Astronomy",
+        "Star",
+        "Planet",
+        "Solar_System",
+        "Galaxy",
+        "Milky_Way",
+        "Moon",
+        "Constellation",
+        "Comet",
+        "Nebula"
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "articles": [
+        "Weather",
+        "Cloud",
+        "Wind",
+        "Rain",
+        "Weather_forecasting",
+        "Thunderstorm",
+        "Atmospheric_pressure"
+      ]
+    },
+    {
+      "id": "fishing",
+      "title": "Fishing",
+      "articles": [
+        "Fishing",
+        "Angling",
+        "Fishing_techniques",
+        "Fish",
+        "Fly_fishing",
+        "Bait_fish"
+      ]
+    },
+    {
+      "id": "birds",
+      "title": "Birds",
+      "articles": [
+        "Bird",
+        "Bird_migration",
+        "Bird_vocalization",
+        "Ornithology",
+        "Birdwatching",
+        "Bird_nest"
+      ]
+    },
+    {
+      "id": "trees",
+      "title": "Trees & Forests",
+      "articles": [
+        "Tree",
+        "Forest",
+        "Leaf",
+        "Wood",
+        "Deciduous",
+        "Conifer"
+      ]
+    },
+    {
+      "id": "geology",
+      "title": "Geology & Rocks",
+      "articles": [
+        "Geology",
+        "Rock_(geology)",
+        "Mineral",
+        "Volcano",
+        "Earthquake",
+        "Plate_tectonics"
+      ]
+    },
+    {
+      "id": "oceans",
+      "title": "Oceans & Seas",
+      "articles": [
+        "Ocean",
+        "Tide",
+        "Ocean_current",
+        "Sea",
+        "Marine_life",
+        "Wave"
+      ]
+    },
+    {
+      "id": "mammals",
+      "title": "Mammals & Wildlife",
+      "articles": [
+        "Mammal",
+        "Wildlife",
+        "Predation",
+        "Animal_track",
+        "Deer",
+        "Bear"
+      ]
+    },
+    {
+      "id": "insects",
+      "title": "Insects & Bugs",
+      "articles": [
+        "Insect",
+        "Beetle",
+        "Butterfly",
+        "Ant",
+        "Bee",
+        "Entomology"
+      ]
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "articles": [
+        "Physics",
+        "Force",
+        "Energy",
+        "Gravity",
+        "Electricity",
+        "Light",
+        "Quantum_mechanics"
+      ]
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "articles": [
+        "Chemistry",
+        "Chemical_element",
+        "Atom",
+        "Chemical_reaction",
+        "Periodic_table",
+        "Molecule"
+      ]
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "articles": [
+        "Biology",
+        "Cell_(biology)",
+        "Evolution",
+        "Ecosystem",
+        "DNA",
+        "Genetics"
+      ]
+    },
+    {
+      "id": "space",
+      "title": "Space & Cosmology",
+      "articles": [
+        "Universe",
+        "Cosmology",
+        "Big_Bang",
+        "Black_hole",
+        "Dark_matter",
+        "Galaxy_formation_and_evolution"
+      ]
+    },
+    {
+      "id": "human_body",
+      "title": "The Human Body",
+      "articles": [
+        "Human_body",
+        "Human_anatomy",
+        "Heart",
+        "Brain",
+        "Immune_system",
+        "Digestion"
+      ]
+    },
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "articles": [
+        "Mathematics",
+        "Number",
+        "Geometry",
+        "Algebra",
+        "Probability",
+        "Prime_number"
+      ]
+    },
+    {
+      "id": "evolution",
+      "title": "Evolution",
+      "articles": [
+        "Evolution",
+        "Natural_selection",
+        "Charles_Darwin",
+        "Speciation",
+        "Common_descent"
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "Climate & Earth",
+      "articles": [
+        "Climate",
+        "Climate_change",
+        "Greenhouse_effect",
+        "Carbon_cycle",
+        "Atmosphere_of_Earth"
+      ]
+    },
+    {
+      "id": "history",
+      "title": "World History",
+      "articles": [
+        "History",
+        "Ancient_history",
+        "Middle_Ages",
+        "Renaissance",
+        "Industrial_Revolution",
+        "World_War_II"
+      ]
+    },
+    {
+      "id": "ancient_rome",
+      "title": "Ancient Rome",
+      "articles": [
+        "Ancient_Rome",
+        "Roman_Empire",
+        "Roman_Republic",
+        "Julius_Caesar",
+        "Roman_army",
+        "Colosseum"
+      ]
+    },
+    {
+      "id": "ancient_egypt",
+      "title": "Ancient Egypt",
+      "articles": [
+        "Ancient_Egypt",
+        "Egyptian_pyramids",
+        "Pharaoh",
+        "Nile",
+        "Mummy",
+        "Hieroglyphs"
+      ]
+    },
+    {
+      "id": "greece",
+      "title": "Ancient Greece",
+      "articles": [
+        "Ancient_Greece",
+        "Greek_mythology",
+        "Athenian_democracy",
+        "Sparta",
+        "Alexander_the_Great"
+      ]
+    },
+    {
+      "id": "exploration",
+      "title": "Age of Exploration",
+      "articles": [
+        "Age_of_Discovery",
+        "Christopher_Columbus",
+        "Ferdinand_Magellan",
+        "Exploration",
+        "Cartography"
+      ]
+    },
+    {
+      "id": "mythology",
+      "title": "Mythology & Legends",
+      "articles": [
+        "Mythology",
+        "Greek_mythology",
+        "Norse_mythology",
+        "Folklore",
+        "Legend",
+        "Myth"
+      ]
+    },
+    {
+      "id": "philosophy",
+      "title": "Philosophy",
+      "articles": [
+        "Philosophy",
+        "Ethics",
+        "Metaphysics",
+        "Logic",
+        "Epistemology",
+        "Socrates"
+      ]
+    },
+    {
+      "id": "stoicism",
+      "title": "Stoicism",
+      "articles": [
+        "Stoicism",
+        "Marcus_Aurelius",
+        "Epictetus",
+        "Seneca_the_Younger",
+        "Virtue"
+      ]
+    },
+    {
+      "id": "psychology",
+      "title": "Psychology",
+      "articles": [
+        "Psychology",
+        "Emotion",
+        "Memory",
+        "Cognition",
+        "Motivation",
+        "Personality_psychology"
+      ]
+    },
+    {
+      "id": "meditation",
+      "title": "Meditation & Calm",
+      "articles": [
+        "Meditation",
+        "Mindfulness",
+        "Breathing",
+        "Relaxation_technique",
+        "Yoga"
+      ]
+    },
+    {
+      "id": "religion",
+      "title": "World Religions",
+      "articles": [
+        "Religion",
+        "Christianity",
+        "Islam",
+        "Buddhism",
+        "Hinduism",
+        "Judaism"
+      ]
+    },
+    {
+      "id": "logic",
+      "title": "Logic & Reasoning",
+      "articles": [
+        "Logic",
+        "Argument",
+        "Fallacy",
+        "Critical_thinking",
+        "Reason"
+      ]
+    },
+    {
+      "id": "cooking",
+      "title": "Campfire Cooking",
+      "articles": [
+        "Cooking",
+        "Outdoor_cooking",
+        "Campfire",
+        "Food_preservation",
+        "Smoking_(cooking)",
+        "Dutch_oven"
+      ]
+    },
+    {
+      "id": "gardening",
+      "title": "Gardening & Growing",
+      "articles": [
+        "Gardening",
+        "Vegetable",
+        "Soil",
+        "Composting",
+        "Seed",
+        "Horticulture"
+      ]
+    },
+    {
+      "id": "woodworking",
+      "title": "Woodworking",
+      "articles": [
+        "Woodworking",
+        "Carpentry",
+        "Wood",
+        "Hand_tool",
+        "Joinery",
+        "Whittling"
+      ]
+    },
+    {
+      "id": "home_repair",
+      "title": "Home & Repair",
+      "articles": [
+        "Home_repair",
+        "Maintenance",
+        "Plumbing",
+        "Electrical_wiring",
+        "Tool"
+      ]
+    },
+    {
+      "id": "self_sufficiency",
+      "title": "Self-Sufficiency",
+      "articles": [
+        "Self-sustainability",
+        "Homesteading",
+        "Subsistence_agriculture",
+        "Permaculture",
+        "Off-the-grid"
+      ]
+    },
+    {
+      "id": "brewing",
+      "title": "Brewing & Fermentation",
+      "articles": [
+        "Brewing",
+        "Fermentation",
+        "Beer",
+        "Wine",
+        "Fermentation_in_food_processing"
+      ]
+    },
+    {
+      "id": "fitness",
+      "title": "Fitness & Movement",
+      "articles": [
+        "Physical_fitness",
+        "Exercise",
+        "Strength_training",
+        "Aerobic_exercise",
+        "Stretching"
+      ]
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "articles": [
+        "Nutrition",
+        "Diet_(nutrition)",
+        "Vitamin",
+        "Protein",
+        "Carbohydrate",
+        "Calorie"
+      ]
+    },
+    {
+      "id": "sleep",
+      "title": "Sleep & Rest",
+      "articles": [
+        "Sleep",
+        "Circadian_rhythm",
+        "Sleep_hygiene",
+        "Dream",
+        "Insomnia"
+      ]
+    },
+    {
+      "id": "herbal_medicine",
+      "title": "Herbal Remedies",
+      "articles": [
+        "Herbal_medicine",
+        "Medicinal_plants",
+        "Traditional_medicine",
+        "Herbalism"
+      ]
+    },
+    {
+      "id": "music",
+      "title": "Music & Theory",
+      "articles": [
+        "Music",
+        "Music_theory",
+        "Musical_instrument",
+        "Rhythm",
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "id": "art",
+      "title": "Art & Artists",
+      "articles": [
+        "Art",
+        "Painting",
+        "Sculpture",
+        "History_of_art",
+        "Drawing",
+        "Renaissance_art"
+      ]
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "articles": [
+        "Language",
+        "Linguistics",
+        "Grammar",
+        "Writing_system",
+        "Phonetics",
+        "Etymology"
+      ]
+    },
+    {
+      "id": "chess",
+      "title": "Chess & Strategy",
+      "articles": [
+        "Chess",
+        "Chess_opening",
+        "Chess_strategy",
+        "Chess_endgame",
+        "Chess_tactic"
+      ]
+    },
+    {
+      "id": "economics",
+      "title": "Economics & Money",
+      "articles": [
+        "Economics",
+        "Money",
+        "Supply_and_demand",
+        "Inflation",
+        "Market_(economics)",
+        "Trade"
+      ]
+    }
+  ]
+}

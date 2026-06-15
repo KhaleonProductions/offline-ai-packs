@@ -1,0 +1,48 @@
+name: Weekly pack rebuild
+
+# Rebuilds all subject packs from fresh Wikipedia content once a week and
+# republishes ONLY the packs whose content changed (version bumped). Runs on
+# GitHub's servers — no machine of your own needs to be on, and no tokens: this
+# repo is fully self-contained (catalogue.json + build.py).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch: {}    # allow manual runs from the Actions tab
+
+permissions:
+  contents: write          # to update the release assets
+
+env:
+  RELEASE_TAG: packs-v1
+  BASE_URL: https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch current published index (for change detection)
+        run: |
+          curl -sL "${BASE_URL}/pack-index.json" -o prev-index.json || echo '{"packs":[]}' > prev-index.json
+
+      - name: Rebuild packs from Wikipedia + package changed ones
+        run: |
+          python build.py \
+            --base-url "${BASE_URL}" \
+            --prev-index prev-index.json \
+            --max-chunks 150 \
+            --out dist
+
+      - name: Publish updated assets to the release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          gh release upload "${RELEASE_TAG}" *.zip pack-index.json \
+            --repo "${{ github.repository }}" --clobber
