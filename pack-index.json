@@ -1,12 +1,472 @@
 {
   "packs": [
     {
+      "id": "ancient_egypt",
+      "title": "Ancient Egypt",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/ancient_egypt.zip",
+      "sizeBytes": 63894,
+      "sha256": "8fc47b2ca13c21b75e55e3a5b49176ae3afecb6250b466f18cf903775160c7de",
+      "contentHash": "06300e52445991fb1388684f2b513d80ce6df55a1050cafdf964e0eaebd25f93"
+    },
+    {
+      "id": "ancient_rome",
+      "title": "Ancient Rome",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/ancient_rome.zip",
+      "sizeBytes": 79842,
+      "sha256": "34fe0905c5d5053da4aded47a5ab04b85fb66b7fed3fe69f67140802f8cf8351",
+      "contentHash": "bb27d93fb323c0e837108cc6eb6eb238e7cdee7734a6a2fe836d39b07d21b76b"
+    },
+    {
+      "id": "art",
+      "title": "Art & Artists",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/art.zip",
+      "sizeBytes": 74071,
+      "sha256": "b31d0435b4202be45dc30f5b01a2677519b8c4bfc0523943a4993ebda095fc7a",
+      "contentHash": "70a7b078756510226afd938f8fde117a17bc97aa6efccc6248e3b02165a1d245"
+    },
+    {
       "id": "astronomy",
       "title": "Astronomy",
       "version": 1,
       "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/astronomy.zip",
       "sizeBytes": 65678,
-      "sha256": "6acdc805752f2961502e66427109a894d75f58d0e16e21beaf5870a7e5eba796"
+      "sha256": "ef25e4cbc89d74a1ee6c4f71c4cbba8928417e978b750c861063af697bb935a1",
+      "contentHash": "6411dcab6863ccc850aa99ee4ada7c68a6a7c9826f18f855e2aecb9c2a6df395"
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/biology.zip",
+      "sizeBytes": 69906,
+      "sha256": "d584122b643a36430ec91e5870a5d819895cd6d3cc8f7e6a45f54fb7e8b7ce6c",
+      "contentHash": "fa8d21bc6e6961d656ee29c7476b8374a1553adc762083a0cd4ab6d7d62db279"
+    },
+    {
+      "id": "birds",
+      "title": "Birds",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/birds.zip",
+      "sizeBytes": 67664,
+      "sha256": "6f6c0f3457763648e0c9e124619f3ba14b6c2dd0d0f982d14bf4c8103f22a278",
+      "contentHash": "45e8e06abc54f01aad52af91acb6463e68ee1742c747c7b9c63969a472bd10ef"
+    },
+    {
+      "id": "brewing",
+      "title": "Brewing & Fermentation",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/brewing.zip",
+      "sizeBytes": 64805,
+      "sha256": "6837ce6b44625b5bb08fadf0d250991f1442b5d6ba07511ad94eec8798c7d2b7",
+      "contentHash": "52cb5f9f83457efa76ace937465b1ba27f7b337c570788aa6070e5783db1e246"
+    },
+    {
+      "id": "bushcraft",
+      "title": "Bushcraft",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/bushcraft.zip",
+      "sizeBytes": 42174,
+      "sha256": "e638efd39fb4ab3d8aecb8f905aa88ddc81cd06fad9c88cc6bd85a485ee29a39",
+      "contentHash": "9d95585f9ed3d2a5829eaa221660f469e7cc762ba9615b75e872ea9675af5a45"
+    },
+    {
+      "id": "camping",
+      "title": "Camping",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/camping.zip",
+      "sizeBytes": 58942,
+      "sha256": "77313d6f2d1234cd3356665b538c4b3d00a7306b8ede65c07ac1d9e44007977d",
+      "contentHash": "e102e5c6f32976842ecb349202a6240360f00188e741e4930b387ba91d95ce0f"
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/chemistry.zip",
+      "sizeBytes": 65714,
+      "sha256": "2f9cfb89c09a9dc92de4212e0a209ab0b78fb0967345eda074bd497611d55942",
+      "contentHash": "5e21da684fdd11b2d19f06a0a62ce5e9f7fb37ab7090e871a72dbd3a869fe726"
+    },
+    {
+      "id": "chess",
+      "title": "Chess & Strategy",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/chess.zip",
+      "sizeBytes": 55816,
+      "sha256": "7dfe5714be9d3e3a26a3837cddc1504237b833e4db5155ea153392d93fa96720",
+      "contentHash": "ff2e0940c0bd9c20d84540be19be38a9256b4ab1d84effc67615bb697ee8808b"
+    },
+    {
+      "id": "climate",
+      "title": "Climate & Earth",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/climate.zip",
+      "sizeBytes": 61979,
+      "sha256": "aa75fddcac79135dab03710a70cc4382455786c0a411dfdb1a2c4fbadc0bd9c7",
+      "contentHash": "f6a4a0beb12ee85dec90c951ce07806abc244b3c278520a2a2335653199d5e6c"
+    },
+    {
+      "id": "cooking",
+      "title": "Campfire Cooking",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/cooking.zip",
+      "sizeBytes": 59081,
+      "sha256": "a4e163f6534c5cb27c81e18274adba01e81c50fc4fe2c4c7bbfa6991d2f02219",
+      "contentHash": "c3b1ce3d0b31c2dd41c6c2f459215067b7f842738f56a48c8feb5eda3586e096"
+    },
+    {
+      "id": "economics",
+      "title": "Economics & Money",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/economics.zip",
+      "sizeBytes": 63337,
+      "sha256": "5d5bf7e38b132b0e00eafc59d5565fac0a611f2ce84bbc153d06cac8a0d6bce1",
+      "contentHash": "82fba85c7e25a2a994d65959380694712266445b41fd35d2162943600ecec3a2"
+    },
+    {
+      "id": "evolution",
+      "title": "Evolution",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/evolution.zip",
+      "sizeBytes": 70961,
+      "sha256": "6d1a30b3f488fc980c490d24707a365f790ee20f3f6b10880eead16971b9358d",
+      "contentHash": "4ca5f8b1a2a2d8c68f554ed26bf346bd7a42b6528bd33c251973cdda27366ed1"
+    },
+    {
+      "id": "exploration",
+      "title": "Age of Exploration",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/exploration.zip",
+      "sizeBytes": 74388,
+      "sha256": "1e4bb3863f3dc60f09329d2bd916e99ea00f31a0611fce7131efff30de2250e9",
+      "contentHash": "8260ffb585e69437cc81690fdbbc9b5368cd1925a46992769d5df8aec6b029a5"
+    },
+    {
+      "id": "first_aid",
+      "title": "First Aid",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/first_aid.zip",
+      "sizeBytes": 59436,
+      "sha256": "6e2e42c4f1ac18fb869b56216cf00e5f14aa666138ed2db6671667869dc0a65b",
+      "contentHash": "885d80d2847df150318fb314af274d60935ab55dd90bd3cc5fbbf028d38f37e4"
+    },
+    {
+      "id": "fishing",
+      "title": "Fishing",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/fishing.zip",
+      "sizeBytes": 61988,
+      "sha256": "eeeb253e610c5ebb735664eda129c5fa679c91e4c50854331b4a0b2e4bb795c7",
+      "contentHash": "78a1a44caafc0141286fec2246633966eeba5219845710ace4bccaae81ead9f7"
+    },
+    {
+      "id": "fitness",
+      "title": "Fitness & Movement",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/fitness.zip",
+      "sizeBytes": 57027,
+      "sha256": "597d0b4b89b47f75152ee95208aa88c28e34297a815ed5eb2251ec9ffe35738c",
+      "contentHash": "942e24047567805af3894c1d2a3b7c5b117155e56468a878a428a2178b1b5cc9"
+    },
+    {
+      "id": "foraging",
+      "title": "Plants & Foraging",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/foraging.zip",
+      "sizeBytes": 55805,
+      "sha256": "0bca49820774122a46994678ccc1c8521013dd601587d71c0cd3cfcbe713686f",
+      "contentHash": "99f828bea716694f94ea236cd8b1d5562b0f463ae3528e6fc8344a8e81ab5d28"
+    },
+    {
+      "id": "gardening",
+      "title": "Gardening & Growing",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/gardening.zip",
+      "sizeBytes": 61203,
+      "sha256": "597f6021d5a71965e3fc6997a8d512f4f8342b38ce42e7321bd5bbfe30173901",
+      "contentHash": "929b73bb28ef91ef29380068d4b215810927e9a7be519efc6f18fff27b3a3909"
+    },
+    {
+      "id": "geology",
+      "title": "Geology & Rocks",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/geology.zip",
+      "sizeBytes": 64639,
+      "sha256": "d6e42bfeeae9d89da251a5542473b402f58bb7cb41bb70d29d3c71dda379c7c9",
+      "contentHash": "95335ec3ddf92f2494cffe7ea886ce3a3879baa00441f8fe8c4802edb7836129"
+    },
+    {
+      "id": "greece",
+      "title": "Ancient Greece",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/greece.zip",
+      "sizeBytes": 71141,
+      "sha256": "be8b4017b6fc9f05f6b662bc34558b6c2b89804ec2d077ec8b3d9493ad4c7356",
+      "contentHash": "fe0199a0ec1a6aa86ed45c6519e1afcfc68a68abe1e99377b025b1f358ca1af7"
+    },
+    {
+      "id": "herbal_medicine",
+      "title": "Herbal Remedies",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/herbal_medicine.zip",
+      "sizeBytes": 63206,
+      "sha256": "b9492edbd11c58f3e455c2cb926bd9e84b844abff09b68982187ea67c7458133",
+      "contentHash": "6d4bd902bc225100380a1c6d571c9ca9ab39524c906a2a136d2214bca7754eb8"
+    },
+    {
+      "id": "history",
+      "title": "World History",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/history.zip",
+      "sizeBytes": 78491,
+      "sha256": "3b7b31aa5ea649c641d69433d2203f7218998c2d1840ce39f9bcbfba5b52875b",
+      "contentHash": "5b041c3d87e3813f3135931e33f2bcd2ae1b5f58db0dcb52eff7ec93d38c9ab5"
+    },
+    {
+      "id": "home_repair",
+      "title": "Home & Repair",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/home_repair.zip",
+      "sizeBytes": 58925,
+      "sha256": "36cf5ed56e53abca9a23b3b4d23f534193557f1d84b15c4584bbec6f567da6e6",
+      "contentHash": "239b0d7eef9abf4d047c97318685f27325042bfec15437c6409a7e03afc57d10"
+    },
+    {
+      "id": "human_body",
+      "title": "The Human Body",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/human_body.zip",
+      "sizeBytes": 66615,
+      "sha256": "2de15bf4d7f14d223e32a0b4ecc0ac1ee89f2e3db492551b150b44de2fc7c795",
+      "contentHash": "1e40d99b4ff15114a488b8658c88ff4e2b04193fc3a11b5cf1aeb4a9024ce743"
+    },
+    {
+      "id": "insects",
+      "title": "Insects & Bugs",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/insects.zip",
+      "sizeBytes": 70767,
+      "sha256": "a966f6457c512a18629329470e9d4786c920b49e63977cad94793e8aba4a2ed6",
+      "contentHash": "f00a5cb35c3a971d2b5c0c61fab3e9fb101545042875f74371c11b56786ef195"
+    },
+    {
+      "id": "knots",
+      "title": "Knots & Rope",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/knots.zip",
+      "sizeBytes": 43678,
+      "sha256": "e9ad2d65453a11d9dad7b88e27890def697b5618c8fd940102585011217a018d",
+      "contentHash": "4458d2dce74aea9ae8dbda7c1a415e7e66349e0356413665287d318658e817e5"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/languages.zip",
+      "sizeBytes": 69341,
+      "sha256": "3eb3ed3a807d93bf3446753094bc3a6e1eb93fff90635a7bfa3cf7e085e4593c",
+      "contentHash": "1aa786013adddf139bb404fffe8f67baf91faa67264e5cedf8a1af8302797617"
+    },
+    {
+      "id": "logic",
+      "title": "Logic & Reasoning",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/logic.zip",
+      "sizeBytes": 58313,
+      "sha256": "a22949194b14977d7db4b40ead6a99744a7a5685df5fa74758fceb58540e05e2",
+      "contentHash": "4c60c619a5c1e3d19fd910309e1035a71f5af16932993c7fe2d73abe70c59aff"
+    },
+    {
+      "id": "mammals",
+      "title": "Mammals & Wildlife",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/mammals.zip",
+      "sizeBytes": 70510,
+      "sha256": "729981e9c83b26f808893202086cf0b611ddfaa13f397dbbbf764f57efc6182f",
+      "contentHash": "eef281255c9b07d44a0a7bb4594dd7955dac612b4e8893ccd04584b089804ab9"
+    },
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/math.zip",
+      "sizeBytes": 57022,
+      "sha256": "e33258f039a75cc18f95e7820bcd14329b69e6d462e6737553736e1706a9c8b7",
+      "contentHash": "fdfa660dec2fc03e263b1077a9e6196ae7b98680bc141c5b56dd15dcde64dfc3"
+    },
+    {
+      "id": "meditation",
+      "title": "Meditation & Calm",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/meditation.zip",
+      "sizeBytes": 61211,
+      "sha256": "5d604ba6c6143e408ef1d039d67985713ebce1ed0dadf4a2740d01155ec3ad43",
+      "contentHash": "e1f025d2f993c63c9ae67b74ccaf5528a0667b243d85834b397c242367f9d795"
+    },
+    {
+      "id": "music",
+      "title": "Music & Theory",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/music.zip",
+      "sizeBytes": 71564,
+      "sha256": "202c3a74ebee031aa72d015515a284c392c6f07f816a8f814f0758e0ea85cc07",
+      "contentHash": "f970ff5e2bb6c5f76412c7bb13054492fb2ba44b5881cb586af8628a140f0771"
+    },
+    {
+      "id": "mythology",
+      "title": "Mythology & Legends",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/mythology.zip",
+      "sizeBytes": 65817,
+      "sha256": "9d0c55733b39aa20e7465798ffd1e649065e68674c4af190308b3dd95941413d",
+      "contentHash": "ad4beccc08d7d2d6308c72ab8ffc0682fcccc2aac001413f9b39d3b2f9f9f1a6"
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/navigation.zip",
+      "sizeBytes": 60937,
+      "sha256": "7204514c3321bb11dc8c138beeeaadd61b33d3a21c5d47f5705dd8654482bbac",
+      "contentHash": "822943b80d0110962fde0d2e6efe04b3ac73157dcb220031f21c71eacefa85e4"
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/nutrition.zip",
+      "sizeBytes": 65381,
+      "sha256": "43e0fe5ff82739e5a20eb9dd3f2efe740313943a7b31f5676d76f6f8e43de2d1",
+      "contentHash": "383c5115a6d11169641401008f72550d1bab1ee04da5366aec41d7f2c721e49d"
+    },
+    {
+      "id": "oceans",
+      "title": "Oceans & Seas",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/oceans.zip",
+      "sizeBytes": 64923,
+      "sha256": "8776592711dc90fe0449568bb308fc54d097cb1a438e97722dee52b253c73e93",
+      "contentHash": "b24193016070545bf547f16da31c582e770379c1fd1605a0e9c171f4fae1b281"
+    },
+    {
+      "id": "philosophy",
+      "title": "Philosophy",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/philosophy.zip",
+      "sizeBytes": 73242,
+      "sha256": "5e351bd47f94a0a07f81dd41003d4c51ed062cc84b743d7c42865f825067f5d7",
+      "contentHash": "0940d12396e525dfe1a21b5ea95b9bdc0a5198a92f7f244b418ae6b0e5d6c994"
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/physics.zip",
+      "sizeBytes": 61139,
+      "sha256": "f79f7c5031191e4ecdb45aea16e2b7bd7364686bde6d308262d35366e9782cef",
+      "contentHash": "eabcb825262a5189a80adceedba281328df92f8188e93d915531f02fb0164d95"
+    },
+    {
+      "id": "psychology",
+      "title": "Psychology",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/psychology.zip",
+      "sizeBytes": 69642,
+      "sha256": "72d198c5ba74a483f88f642eff3965dca9c5f5c1f1dad754a88b0952d514549d",
+      "contentHash": "7dcfb11f34e589e5f82d8324a9adb9210d2a9b37ac9cb2621f5634554a7a88e8"
+    },
+    {
+      "id": "religion",
+      "title": "World Religions",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/religion.zip",
+      "sizeBytes": 64557,
+      "sha256": "f0f83edbfc7c3eea9e1a70868f209493a8faf6980089e1b8dcd09ee5702174c7",
+      "contentHash": "bceea914325cef5a76291f380e747975395bb255323be5f92192154823604b80"
+    },
+    {
+      "id": "self_sufficiency",
+      "title": "Self-Sufficiency",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/self_sufficiency.zip",
+      "sizeBytes": 60824,
+      "sha256": "53b2a57d2e1da060828f1dd7a4c45f23cd1bb5ef023900cd374372b2a004279c",
+      "contentHash": "83465c0703747b01f3e1918dada157849d555d635fb82318a0445a3cdda72c44"
+    },
+    {
+      "id": "sleep",
+      "title": "Sleep & Rest",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/sleep.zip",
+      "sizeBytes": 62549,
+      "sha256": "0e5ad76cc5960e43d2a8fd81055759c59e8ad50e88a48b1dd63f9fc7b69f46d2",
+      "contentHash": "6a3da672d91bf1eb504d6d9351fc0673f1793f013e6119b6c642f0c3f48dcb04"
+    },
+    {
+      "id": "space",
+      "title": "Space & Cosmology",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/space.zip",
+      "sizeBytes": 65774,
+      "sha256": "3bd3ba833fb620497a57515ce0148f5a1afa1ad2036a2498a16c343edd2b1614",
+      "contentHash": "bcd4a5eb364f8f82bd15ccbb0d2116d5d03a4024cc84de45b6564051832afca6"
+    },
+    {
+      "id": "stoicism",
+      "title": "Stoicism",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/stoicism.zip",
+      "sizeBytes": 65893,
+      "sha256": "946de7f623ef7dc6f41c42f9a2323204e0de8398bdaa890094a90345e7269283",
+      "contentHash": "4350e8de54b469d202bb3b53fac6c179b3040435ee7e6d0d437521ec8b8887de"
+    },
+    {
+      "id": "survival",
+      "title": "Survival Skills",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/survival.zip",
+      "sizeBytes": 61030,
+      "sha256": "1d87bedb048b14afa7117036fd4fde3c4cedc64ec0a8f45c1776e3883c40783a",
+      "contentHash": "c54c464fae9101c0b4c8d011d1c82f20e7a804fb1624b894e20c4dc8f99051f7"
+    },
+    {
+      "id": "trees",
+      "title": "Trees & Forests",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/trees.zip",
+      "sizeBytes": 63444,
+      "sha256": "0d9d89faf40275e92c6c1263fa40a39893f192cd53eabf8996e584104a9eb851",
+      "contentHash": "34f932d861ea17de144fe4765bfc90a117180767eb462b027be128d1b529bbd6"
+    },
+    {
+      "id": "water",
+      "title": "Water & Purification",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/water.zip",
+      "sizeBytes": 59565,
+      "sha256": "fe6f2430d7f1197cf979c7a5b38f019030961644be40dd5c78a654f626b1c1f9",
+      "contentHash": "baa71b20fc2e38ffcd5914cfaa17ac827ed42afd4014403eaeb34919adebf840"
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/weather.zip",
+      "sizeBytes": 67413,
+      "sha256": "95bd54fec79c720de5239324ecbd6e5831ecb0a06a2369310fc5f6fac464f773",
+      "contentHash": "a5e336f4f80e81c08d0317939982ed77e9f31538c21d41c7480dedf7f9a94c81"
+    },
+    {
+      "id": "woodworking",
+      "title": "Woodworking",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai-packs/releases/download/packs-v1/woodworking.zip",
+      "sizeBytes": 59376,
+      "sha256": "fc1edd13767cc78c3c45a00ee8d8f0653fd33319941c958264b5cdab1246accd",
+      "contentHash": "ad618e64deb669837009a8cffe3f96e0859c7782141e48a1aa4c2cc98e16c222"
     }
   ]
 }
