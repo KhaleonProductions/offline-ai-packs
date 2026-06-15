@@ -16,19 +16,24 @@ import hashlib
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
 import zipfile
 
 API = "https://en.wikipedia.org/w/api.php"
-UA = "OfflineAI-PackBuilder/0.1 (offline knowledge packs)"
+# A descriptive User-Agent with contact is Wikipedia's policy and gets far less
+# aggressive rate-limiting than a generic one.
+UA = ("OfflineAI-PackBuilder/1.0 "
+      "(https://github.com/KhaleonProductions/offline-ai-packs; contact via GitHub issues)")
 SKIP_SECTIONS = re.compile(
     r"^(See also|References|Further reading|External links|Notes|Citations|Bibliography|Gallery)$",
     re.IGNORECASE)
 
 
-def fetch_plaintext(title, retries=4):
+def fetch_plaintext(title, retries=7):
+    """Fetch an article with exponential backoff on 429 (CI shares throttled IPs)."""
     params = {"action": "query", "prop": "extracts", "explaintext": "1",
               "redirects": "1", "format": "json", "titles": title}
     url = API + "?" + urllib.parse.urlencode(params)
@@ -42,7 +47,12 @@ def fetch_plaintext(title, retries=4):
             return ""
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries - 1:
-                time.sleep(5 * (attempt + 1)); continue
+                # Exponential backoff: 10, 20, 40, 80 ... seconds.
+                wait = 10 * (2 ** attempt)
+                print(f"    429 on '{title}' — backing off {wait}s "
+                      f"(attempt {attempt + 1}/{retries})", flush=True)
+                time.sleep(wait)
+                continue
             raise
     return ""
 
@@ -110,15 +120,43 @@ def main():
     index = {"packs": []}
     changed, unchanged, failed = [], [], []
 
-    for subj in subjects:
+    def build_one(subj):
         pid, title, articles = subj["id"], subj["title"], subj["articles"]
-        print(f"building {pid} ...", flush=True)
         try:
             chunks = build_pack(pid, title, articles, args.max_chunks)
         except Exception as e:
-            print(f"  FAILED {pid}: {e}"); failed.append(pid); continue
+            print(f"  FAILED {pid}: {e}", flush=True)
+            return None
         if not chunks:
-            print(f"  no content for {pid}"); failed.append(pid); continue
+            print(f"  no content for {pid}", flush=True)
+            return None
+        return chunks
+
+    # First pass.
+    pending = list(subjects)
+    results = {}  # id -> chunks
+    for subj in pending:
+        print(f"building {subj['id']} ...", flush=True)
+        c = build_one(subj)
+        if c:
+            results[subj["id"]] = c
+
+    # Retry pass for any that failed (usually transient 429s), after a cooldown.
+    retry = [s for s in subjects if s["id"] not in results]
+    if retry:
+        print(f"\nretrying {len(retry)} failed pack(s) after a 60s cooldown ...", flush=True)
+        time.sleep(60)
+        for subj in retry:
+            print(f"retry {subj['id']} ...", flush=True)
+            c = build_one(subj)
+            if c:
+                results[subj["id"]] = c
+
+    for subj in subjects:
+        pid, title, articles = subj["id"], subj["title"], subj["articles"]
+        chunks = results.get(pid)
+        if not chunks:
+            failed.append(pid); continue
 
         chash = content_hash(title, chunks)
         prev_entry = prev.get(pid)
@@ -148,12 +186,33 @@ def main():
             "sha256": zip_sha, "contentHash": chash,
         })
 
+    # For any pack that FAILED to build this run, keep its previously-published
+    # index entry (if any) so it stays downloadable at its old version — a
+    # transient build failure must NOT make a pack disappear from the catalogue.
+    have = {p["id"] for p in index["packs"]}
+    for pid in failed:
+        if pid in prev and pid not in have:
+            index["packs"].append(prev[pid])
+            print(f"  kept previous published entry for failed pack: {pid}", flush=True)
+    index["packs"].sort(key=lambda p: p["id"])
+
     with open(os.path.join(args.out, "pack-index.json"), "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2)
     print(f"\npacks={len(index['packs'])} changed={len(changed)} "
           f"unchanged={len(unchanged)} failed={failed}")
     if changed:
         print("changed:", ", ".join(changed))
+
+    # Fail the job (non-zero exit) if any pack failed AND it had no previous
+    # published version to fall back on — i.e. it's missing from the catalogue.
+    # (Failures with a fallback are tolerated: the old version stays live.)
+    missing = [pid for pid in failed if pid not in prev]
+    if missing:
+        print(f"\nERROR: {len(missing)} pack(s) failed with no fallback: {missing}")
+        sys.exit(1)
+    if failed:
+        print(f"\nWARNING: {len(failed)} pack(s) failed but kept their previous "
+              f"published version: {failed}")
 
 
 if __name__ == "__main__":
