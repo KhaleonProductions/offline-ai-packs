@@ -1,0 +1,12 @@
+{
+  "packs": [
+    {
+      "id": "astronomy",
+      "title": "Astronomy",
+      "version": 1,
+      "url": "https://github.com/KhaleonProductions/offline-ai/releases/download/packs-v1/astronomy.zip",
+      "sizeBytes": 65678,
+      "sha256": "6acdc805752f2961502e66427109a894d75f58d0e16e21beaf5870a7e5eba796"
+    }
+  ]
+}
