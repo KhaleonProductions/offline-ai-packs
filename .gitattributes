@@ -1,0 +1,3 @@
+# Normalize line endings; JSON pack indexes must stay LF to avoid CRLF churn
+* text=auto eol=lf
+*.json text eol=lf
